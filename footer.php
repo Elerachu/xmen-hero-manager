@@ -1,2 +1,11 @@
-</main><footer><div class="wrap">X‑Men Archive &middot; Professor Xavier's secure hero registry</div></footer>
-<script src="assets/app.js"></script></body></html>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <p>X-Men Archive</p>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
