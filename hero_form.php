@@ -2,7 +2,7 @@
 <div class="form-shell">
   <p class="eyebrow">Secure editor &middot; Clearance verified</p>
   <h1><?= $is_edit ? 'Edit ' . e($hero['hero_name']) : 'Add a new hero' ?></h1>
-  <p class="form-intro">Fields marked * are required. Changes are recorded instantly in the archive.</p>
+  <p class="form-intro">Fields marked * are required.</p>
 
   <form class="form-card" method="post" novalidate data-hero-form>
     <input type="hidden" name="csrf_token" value="<?= csrf_token() ?>">
@@ -28,7 +28,6 @@
       <div class="field">
         <label for="powers">Powers <span class="optional">(comma-separated)</span></label>
         <input id="powers" name="powers" maxlength="255" placeholder="e.g. Flight, Strength" value="<?= e($hero['powers'] ?? '') ?>">
-        <p class="hint">Rendered as chips across the archive.</p>
       </div>
     </div>
 
@@ -53,7 +52,6 @@
       <div class="field">
         <label for="image_url">Image URL <span class="optional">(optional)</span></label>
         <input id="image_url" name="image_url" type="url" maxlength="500" placeholder="https://&hellip;" value="<?= e($hero['image_url'] ?? '') ?>">
-        <p class="hint">A live preview appears once the link is valid.</p>
         <p class="error-msg"></p>
       </div>
       <div class="image-preview" id="image-preview" aria-hidden="true"></div>
