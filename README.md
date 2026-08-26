@@ -1,12 +1,12 @@
 ## Group members and contribution
 
-| Member | Email | Contribution |
-| --- | --- | --- |
-| Tako Nellyvine Mizero | n.mizero@alustudent.com | Shared equally across planning, interface design, PHP development, database work, testing, documentation, and presentation. |
-| Hanif Olayiwola | h.olayiwola@alustudent.com | Shared equally across planning, interface design, PHP development, database work, testing, documentation, and presentation. |
-| Elera-Obari Josiah-Chu | e.josiah-ch@alustudent.com | Shared equally across planning, interface design, PHP development, database work, testing, documentation, and presentation. |
+| Member | Email |
+| --- | --- |
+| Tako Nellyvine Mizero | n.mizero@alustudent.com | 
+| Hanif Olayiwola | h.olayiwola@alustudent.com | 
+| Elera-Obari Josiah-Chu | e.josiah-ch@alustudent.com | 
 
-# X-Men Archive (Cerebro Files)
+# X-Men Archive
 
 A PHP and MySQL CRUD web application for managing an X-Men hero roster.
 Visitors can browse and search heroes; registered users can create, update, and delete records.
@@ -51,13 +51,3 @@ then open [http://localhost:8000](http://localhost:8000).
 - `login.php`, `register.php`, `logout.php` — authentication
 - `database.sql` — database schema and starter data
 - `assets/` — stylesheet, client-side JavaScript, and images
-
-## Demo checklist
-
-1. Open the hero directory, search for a hero, and open one profile while logged out.
-2. Notice the locked "Log in to edit" button on a profile.
-3. Register a new account, then log in (you return to the page you started on).
-4. Add a hero using **Add hero**.
-5. Edit that hero and save the change.
-6. Delete the test hero and confirm the dialog.
-7. Log out and show that **Add hero** is unavailable.
