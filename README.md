@@ -1,4 +1,4 @@
-## Group members and contribution
+## Group members
 
 | Member | Email |
 | --- | --- |
