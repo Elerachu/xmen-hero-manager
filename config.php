@@ -1,7 +1,7 @@
 <?php
 // Update these values only if your XAMPP MySQL setup uses different credentials.
 define('DB_HOST', 'localhost');
-define('DB_PORT', '3307');
+define('DB_PORT', '3306');
 define('DB_NAME', 'xmen_hero_manager');
 define('DB_USER', 'root');
 define('DB_PASS', '');
