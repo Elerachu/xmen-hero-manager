@@ -37,13 +37,8 @@ require __DIR__ . '/header.php';
 <div class="auth-layout">
   <aside class="auth-brand" style="background: linear-gradient(160deg, rgba(10,14,26,0.42) 0%, rgba(10,14,26,0.88) 78%), url('assets/img/login-bg.png') center/cover no-repeat, linear-gradient(150deg, #131c3a 0%, #0a0e1a 75%); justify-content: center;">
     <div>
-<<<<<<< HEAD
-      <p class="display">The archive is always open.</p>
-      <p class="sub">Sign in to update records, add new recruits, and keep the registry updated.</p>
-=======
       <p class="display">The school doors are always open.</p>
       <p class="sub">Sign in to update records, add new recruits, and keep the registry true.</p>
->>>>>>> 081a0248b8993f7e203f25eb3f22967522c7aa19
     </div>
   </aside>
 
