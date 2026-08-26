@@ -41,8 +41,8 @@ require __DIR__ . '/header.php';
 <div class="auth-layout">
   <aside class="auth-brand" style="background: linear-gradient(160deg, rgba(10,14,26,0.42) 0%, rgba(10,14,26,0.88) 78%), url('assets/img/register-bg.png') center/cover no-repeat, linear-gradient(150deg, #131c3a 0%, #0a0e1a 75%); justify-content: center;">
     <div>
-      <p class="display">Every mutant deserves a place here.</p>
-      <p class="sub">Create a pass to join the institute's archive and help keep the records true.</p>
+      <p class="display">Every mutant belongs here.</p>
+      <p class="sub">Create an account to join the archive and help keep the records updated.</p>
     </div>
   </aside>
 
