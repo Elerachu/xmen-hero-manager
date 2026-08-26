@@ -28,10 +28,6 @@
       <div class="field">
         <label for="powers">Powers <span class="optional">(comma-separated)</span></label>
         <input id="powers" name="powers" maxlength="255" placeholder="e.g. Flight, Strength" value="<?= e($hero['powers'] ?? '') ?>">
-<<<<<<< HEAD
-=======
-        <p class="hint">Rendered as chips across the archive.</p>
->>>>>>> 081a0248b8993f7e203f25eb3f22967522c7aa19
       </div>
     </div>
 
@@ -42,10 +38,6 @@
         <span class="char-count" id="short-bio-count">0 / 255</span>
       </div>
       <textarea id="short_bio" name="short_bio" required maxlength="255" rows="3"><?= e($hero['short_bio'] ?? '') ?></textarea>
-<<<<<<< HEAD
-=======
-      <p class="hint">Brief summary shown on the roster card.</p>
->>>>>>> 081a0248b8993f7e203f25eb3f22967522c7aa19
       <p class="error-msg"></p>
     </div>
     <div class="field">
@@ -59,10 +51,6 @@
       <div class="field">
         <label for="image_url">Image URL <span class="optional">(optional)</span></label>
         <input id="image_url" name="image_url" type="url" maxlength="500" placeholder="https://&hellip;" value="<?= e($hero['image_url'] ?? '') ?>">
-<<<<<<< HEAD
-=======
-        <p class="hint">A live preview appears once the link is valid.</p>
->>>>>>> 081a0248b8993f7e203f25eb3f22967522c7aa19
         <p class="error-msg"></p>
       </div>
       <div class="image-preview" id="image-preview" aria-hidden="true"></div>
